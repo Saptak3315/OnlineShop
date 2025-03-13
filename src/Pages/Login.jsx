@@ -23,7 +23,7 @@ function Login() {
     let users=JSON.parse(localStorage.getItem("users")) || {};
     if(users[username]&&users[username].password===pass){
         localStorage.setItem("liu",username);
-        navigate("/dashboard");
+        navigate("/Dashboard");
     }
     else {
         alert("Invalid Username or Password");

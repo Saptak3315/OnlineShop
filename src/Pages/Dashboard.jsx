@@ -70,7 +70,7 @@ function Dashboard() {
         }
     };
     const logout=()=>{
-        navigate("/");
+        navigate("/OnlineShop/");
     }
     return (
         <div className='style'>
